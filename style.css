@@ -2,8 +2,6 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(rgba(255,255,255,0.92), rgba(255,255,255,0.92)), 
-              url('https://i.imgur.com/AKN8j70.jpg') no-repeat center top;
   background-size: cover;
   background-attachment: fixed;
   padding: 2rem;
