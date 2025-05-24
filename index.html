@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hot Wheels Collection</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>My Hot Wheels Collection</h1>
+
+  <form id="carForm">
+    <input type="text" id="carName" placeholder="Car Name / Model" required />
+    <input type="text" id="carValue" placeholder="Estimated Value" />
+    <input type="url" id="carImage" placeholder="Image URL" />
+    <input type="url" id="wikiLink" placeholder="Wiki Link (optional)" />
+    <input type="url" id="marketLink" placeholder="Marketplace Link (optional)" />
+    <br/>
+    <button type="submit" id="submitButton">Add to Collection</button>
+    <p id="errorMsg" class="error"></p>
+  </form>
+
+  <div id="collection"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
